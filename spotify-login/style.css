@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(84, 84, 84);
+}
+
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 425px;
+    height: 650px;
+    border-radius: 15px;
+    color: white;
+}
+
+#logo{
+    margin: 10px;
+    color: white;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#logo > img{
+    height: 100px;
+    margin: 3px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 0.7em;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+
+form > input{
+    padding: 10px;
+    margin: 12px;
+    border-radius: 15px;
+    width: 250px;
+    color: gray;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.116);
+}
+
+form>p{
+    text-decoration: none;
+    color: gray;
+}
+
+form > p:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#signin{
+    border: none;
+    width: 270px;
+    font-size: 2em;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #0E672F, #1ee768);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    border-radius: 25px;
+}
+
+#opcoes{
+    color: #1ee768;
+    font-size: 0.8em;
+    margin-bottom: 25px;
+}
+
+#opcoes > p{
+    margin: 5px 5px;
+}
+
+#opcoes img{
+    width: 22px;
+    cursor: pointer;
+}
+
+#facebook{
+    border-radius: 14px;
+    width: 15px;
+}
+
+#signup{
+    color: gray;
+    margin-bottom: 85px;
+    padding-bottom: 28px;
+}
+
+#signup > a{
+    color: #1ee768;
+    text-decoration: none;
+}
+
+#signup >a:hover{
+    text-decoration: underline;
+}
+
+#footer > img{
+    width: 60px;
+    color: white;
+}

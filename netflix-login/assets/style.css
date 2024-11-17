@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: black !important;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(../img/fundo-netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#entrar{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#entrar select, button{
+    padding: 7px;
+    margin-left: 5px;
+}
+
+#btn_entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 65px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#linguagem{
+    width: 120px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    opacity: 1px;
+}
+
+select > option{
+    color: black;
+}
+
+header img{
+    width: 200px;
+}
+
+main{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#apresentacao{
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+#apresentacao > h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#cadastrar p{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+
+#iemail{
+    height: 61px;
+    width: 332px;
+    background: transparent;
+    border-color: #373C3E;
+}
+
+#vamosla button{
+    height: 61px;
+    width: 157.3px;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}

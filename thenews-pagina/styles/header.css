@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pagina{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+div#headerBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header  div.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 1px 80px 0px 80px;
+}
+
+header  div#header_div1 > span{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header  div#header_div1 > span:hover{
+    background-color: whitesmoke;
+}
+
+div#header_div1 > p{
+    font-size: 0.8em;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.71);
+    border-radius: 15px;
+}
+
+div#header_div1 > p:hover{
+    background-color: whitesmoke;
+}
+
+div.header .filhosHeader{
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+header img {
+    width: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+header button{
+    padding: 12px !important;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid rgba(128, 128, 128, 0.364);
+    flex-shrink: 0;
+}
+
+header button#btn_subscribe{
+    background-color: #FECF00;
+    border: none;
+}
+
+header #headerMenu:hover{
+    padding: 5px !important;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main div#textoMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    padding: 13px;
+    font-size: 1.1em;
+}
+
+main div#textoMain img{
+    width: 90px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.173);
+}
+
+main div#textoMain h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.862);
+    font-size: 3em;
+    padding: 10px;
+}
+
+main div#inputMain{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    margin-bottom: 30px;
+}
+
+main div#inputMain div#config{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main div#inputMain span{
+    color: yellow;
+    margin-right: 5px;
+}
+
+main div#inputMain input{
+    font-size: 1.2em;
+    background-color: transparent;
+    border: none;
+
+    margin-right: 40px;
+}
+
+main div#inputMain input:focus-visible{
+    outline: none;
+}
+
+main div#inputMain div#config button{
+    padding: 15px;
+    background-color: #FECF00;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.823);
+}
+
+main div#redes_sociais{
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
+main div#redes-sociais nav{
+    display: flex;
+    flex-direction: column;
+}
+
+main div#redes_sociais nav > p{
+    font-size: 0.9em;
+    font-weight: bolder;
+}
+
+nav ul#redessociais{
+    display: flex;
+    list-style: none;
+}
+

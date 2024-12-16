@@ -10,10 +10,12 @@ body, html{
     height: 100vh;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
 }
 
 #pagina{
-    width: 100%;
+    margin: auto;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -44,7 +46,7 @@ header  div.header{
 header  div#header_div1 > span{
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.758);
     border-radius: 10px;
     padding: 5px;
 }

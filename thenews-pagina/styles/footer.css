@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: purple;
+}
+
+footer img{
+    width: 40px;
+}
+
+footer div.divFooter{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 1px 1px auto
+}
+
+footer > div > div#logoTheNewsFooter{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.79);
+    margin-bottom: 30px;
+}
+
+footer > div > div#logoTheNewsFooter img{
+    margin-right: 7px;
+}

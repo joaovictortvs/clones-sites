@@ -39,35 +39,44 @@ section#searchEdicoes input:focus-visible{
 section#secaoNoticias{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 section#secaoNoticias article{
     display: flex;
     flex-direction: column;
+  
     border-radius: 10px;
     background-color: #FFDF53;
     border: 1px solid black;
-    width: 360px;
+    width: 300px;
     height: 350px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 15px 10px 0px;
     cursor: pointer;
+    flex: 1 1 auto;
+}
+
+section#secaoNoticias article > div.divArticle{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-evenly;
+    border: 1px solid white;
 }
 
 article.noticia img{
     border-radius: 10px 10px 0px 0px;
-    margin-bottom: 5px;
+    height: 60%;
 }
 
-article.noticia p{
-    margin: 5px 10px 5px 10px;
-}
 
-p.dataNoticia, p.numeroData{
+p.dataNoticia, p.numeroData, p.autorNoticia{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
 
-p.dataNoticia:hover, p.numeroData:hover{
+p.dataNoticia:hover, p.numeroData:hover, p.autorNoticia:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -79,11 +88,34 @@ p.dataNoticia{
 
 p.numeroData{
     font-family: monospace;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: bolder;
 }
 
-p.autorNoticia:hover{
-    text-decoration: underline;
+p.autorNoticia{
+    font-weight: bolder;
+}
+
+section#rolagem_noticias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+section#rolagem_noticias #botoes_rolagem button{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #FECF00;
+    padding: 8px 15px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.438);
+    font-size: 1em;
     cursor: pointer;
+}
+
+section#rolagem_noticias #botoes_rolagem button:active{
+    background-color: #FECF00;
 }

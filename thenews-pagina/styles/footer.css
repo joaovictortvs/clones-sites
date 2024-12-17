@@ -2,9 +2,9 @@
 
 footer{
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
     flex: auto;
-    background-color: purple;
 }
 
 footer img{
@@ -14,9 +14,9 @@ footer img{
 footer div.divFooter{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px;
-    flex: 1px 1px auto
+    flex: 1px 1px auto;
 }
 
 footer > div > div#logoTheNewsFooter{
@@ -27,6 +27,101 @@ footer > div > div#logoTheNewsFooter{
     margin-bottom: 30px;
 }
 
+footer > div#divEsquerda > div{
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.789);
+}
+
 footer > div > div#logoTheNewsFooter img{
     margin-right: 7px;
+}
+
+footer div#footerInicio > p{
+    margin-bottom: 10px;
+}
+
+footer div#divInput_footer div.config{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 2px solid #FECF00;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer div#divInput_footer div.config span{
+    color: #FECF00;
+}
+
+footer div#divInput_footer div.config input{
+    padding: 15px;
+    margin: 0px 5px 0px 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+}
+
+footer div#divInput_footer div.config input:focus-visible{
+    outline: none;
+}
+
+footer div#divInput_footer div.config button{
+    padding: 15px 0px;
+    width: 100px;
+    background-color: #FECF00;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+footer div#divInput_footer ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+footer div#divInput_footer ul img{
+    width: 38px;
+    background-color: #1F1F1F;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+footer div#divInput_footer  li{
+    margin: 5px; 
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}  
+
+footer div#footerPolitica{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer div#footerPolitica p{
+    font-size: 0.8em;
+    margin-left: 4px;
+}
+
+p.pFooter{
+    cursor: pointer;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.655);
+}
+
+p.Strong{
+    font-weight: bolder;
+}
+
+p.sublinhado{
+    text-decoration: underline;
+}
+
+p#pAnuncie{
+    font-size: 1em;
+    color: black;
 }

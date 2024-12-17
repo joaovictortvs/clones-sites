@@ -41,7 +41,7 @@ main div#inputMain{
     margin-bottom: 30px;
 }
 
-main div#inputMain div#config{
+main div#inputMain div.config{
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -65,7 +65,7 @@ main div#inputMain input:focus-visible{
     outline: none;
 }
 
-main div#inputMain div#config button{
+main div#inputMain div.config button{
     padding: 15px;
     background-color: #FECF00;
     border: none;
